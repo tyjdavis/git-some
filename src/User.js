@@ -4,7 +4,6 @@ class User extends Component {
   render(){
     const git = this.props.data;
     return(
-      <div>
         <div className="row">
           <div className="col s6">
             <img src={git.avatar_url}/>
@@ -19,7 +18,6 @@ class User extends Component {
             <strong>{git.hireable ? "Hireable: Yes" : "Hireable: No" }</strong>
           </div>
         </div>
-      </div>
       )
     }
   }
